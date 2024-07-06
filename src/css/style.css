@@ -1,0 +1,227 @@
+body {
+  font-family: "Epilogue", sans-serif;
+  background: #f4f7fe;
+  --bgColor: #f4f7fe;
+}
+/* Nav CSS Start */
+.navbar-brand {
+  background-image: url("https://intenics.in/public/assets/images/intenics_logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 8px;
+  width: 108px;
+  height: 48px;
+}
+.navbar-nav .nav-item .nav-link {
+  color: #313133;
+  border-radius: 24px;
+}
+.navbar-nav .nav-item .nav-link.nav-link-active {
+  color: #fff !important;
+  background: #313131 !important;
+  /* background: #313131; */
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #fff !important;
+  background: #313131;
+}
+.contactUsBtn {
+  background: #fff;
+  border: 1px solid #313131;
+  border-radius: 24px;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #313131;
+  font-size: 14px;
+  font-weight: 500;
+}
+.contactUsBtn i {
+  background: #e7bd73;
+  border: none;
+  border-radius: 50%;
+  padding: 6px;
+  margin-left: 5px;
+  color: #313131;
+  font-size: 12px;
+  transition: all 0.2s linear;
+}
+.contactUsBtn i:hover {
+  padding: 8px 8px;
+  font-size: 14px;
+}
+/* Nav CSS End */
+/* Cursor Pointer Start */
+#cursor-pointer {
+  background: #e7bd73;
+  border: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+}
+/* Cursor Pointer End */
+/* Hero Section Start */
+#mainPosterImgLayout {
+  width: 81vw;
+  height: 116%;
+  background: transparent;
+  z-index: 2;
+  position: absolute;
+}
+.mainPosterImg {
+  width: 100%;
+  border-radius: 24px;
+}
+.smallBarImg {
+  clip-path: polygon(
+    16.8% 0%,
+    83.2% 0%,
+    100% 0%,
+    100% 48%,
+    83.2% 100%,
+    47.8% 100%,
+    0% 100%,
+    0% 52%
+  );
+  background-image: url("https://images.pexels.com/photos/157811/pexels-photo-157811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  width: 175px;
+  height: 40px;
+}
+.sideHeroTextSection h1 {
+  color: #161616;
+  font-size: 6vw;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+/* Hero Section End */
+/* Info Section Start */
+/* Info Section End */
+/* About Section Start */
+#aboutSection {
+  margin-top: -50px;
+}
+/* About Section End */
+/* Highlighter Section Start */
+#CardBody {
+  clip-path: polygon(
+    15% 0%,
+    100% 0%,
+    100% 0,
+    100% 66%,
+    83.7% 100%,
+    0% 100%,
+    0% 67%,
+    0.1% 0%
+  );
+  width: 100%;
+  border-radius: 24px;
+  background: var(--bgColor);
+  margin-top: -15px;
+  z-index: 0;
+}
+#CardBody p {
+  font-size: 12px;
+}
+.viewMoreBtn {
+  background: #fff;
+  border: 1px solid #313131;
+  border-radius: 24px;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #313131;
+  font-size: 14px;
+  font-weight: 500;
+}
+.viewMoreBtn i {
+  background: #e7bd73;
+  border: none;
+  border-radius: 50%;
+  padding: 6px;
+  margin-left: 5px;
+  color: #313131;
+  font-size: 12px;
+  transition: all 0.2s linear;
+}
+.viewMoreBtn i:hover {
+  padding: 7px;
+  font-size: 14px;
+}
+/* Highlighter Section End */
+/* Slider Section Start */
+#SliderImg {
+  clip-path: polygon(
+    15% 0%,
+    100% 0%,
+    100% 0,
+    100% 70%,
+    75% 100%,
+    0% 100%,
+    0% 67%,
+    0.1% 0%
+  );
+  width: 100%;
+  border-radius: 24px;
+}
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8%;
+  left: 5%;
+  /* background: rgba(0, 0, 0, 0.5); */
+}
+.top-left h5 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+}
+.top-left p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+/* Slider Section End */
+/* Testomorials Section Start */
+.testimonialsUserProfile {
+  position: relative;
+  width: 65px;
+  border-radius: 50%;
+  z-index: 1;
+  margin-bottom: -15px;
+}
+/* Testomorials Section End */
+/* FAQ Section Start */
+.accordion-button:not(.collapsed) {
+  color: #e6e6e6;
+  background-color: #313131;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+/* FAQ Section End */
+/* Footer Section Start */
+.footer-Links {
+  font-size: 14px;
+}
+.copyrights {
+  font-size: 12px;
+}
+.social-links {
+  cursor: pointer;
+}
+/* Footer Section End */
+/* Media Query */
+@media only screen and (max-width: 600px) {
+  .sideHeroTextSection h1 {
+    font-size: 35px;
+  }
+}
